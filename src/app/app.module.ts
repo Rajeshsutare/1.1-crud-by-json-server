@@ -8,13 +8,17 @@ import { UserformComponent } from './shared/components/userform/userform.compone
 import { UserListComponent } from './shared/components/user-list/user-list.component';
 import {HttpClientModule} from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { LoginComponent } from './shared/components/login/login.component';
+import { SignupComponent } from './shared/components/signup/signup.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     UserformComponent,
-    UserListComponent
+    UserListComponent,
+    LoginComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
