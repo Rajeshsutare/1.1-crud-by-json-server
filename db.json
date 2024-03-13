@@ -1,14 +1,3 @@
 {
-  "users": [
-    {
-      "id": "1",
-      "name": "rajeshhhh",
-      "age": ""
-    },
-    {
-      "id": "2",
-      "name": "Raj",
-      "age": 20
-    }
-  ]
+  "users": []
 }
